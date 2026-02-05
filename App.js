@@ -24,14 +24,14 @@ import {
 } from 'react-native';
 
 // Import screens
-import MemoryPalaceScreen from './screens/MemoryPalaceScreen';
-import CharacterLearningScreen from './screens/CharacterLearningScreen';
-import PilgrimGuideScreen from './screens/PilgrimGuideScreen';
-import MapScreen from './screens/MapScreen';
-import SettingsScreen from './screens/SettingsScreen';
+import MemoryPalaceScreen from './src/screens/MemoryPalaceScreen';
+import CharacterLearningScreen from './src/screens/CharacterLearningScreen';
+import PilgrimGuideScreen from './src/screens/PilgrimGuideScreen';
+import MapScreen from './src/screens/MapScreen';
+import SettingsScreen from './src/screens/SettingsScreen';
 
 // Import data
-import characterData from './data/characters.json';
+import characterData from './src/data/characters.json';
 
 // Constants
 const { width, height } = Dimensions.get('window');

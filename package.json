@@ -2,7 +2,7 @@
   "name": "journey-to-the-west-memory-palace",
   "version": "1.0.0",
   "description": "西遊記記憶宮殿 - A bilingual memory palace app for learning Chinese characters using Journey to the West imagery and Matteo Ricci's mnemonic techniques",
-  "main": "src/App.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
