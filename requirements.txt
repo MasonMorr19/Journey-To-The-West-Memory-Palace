@@ -1,0 +1,53 @@
+# 西遊記記憶宮殿 Python Backend Requirements
+# Journey to the West Memory Palace
+
+# Web Framework
+flask>=2.3.0
+flask-cors>=4.0.0
+flask-restful>=0.3.10
+
+# Database
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+
+# ArcGIS Integration
+arcgis>=2.2.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Audio Processing (for pronunciation files)
+pydub>=0.25.1
+
+# JSON Schema Validation
+jsonschema>=4.17.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Development
+python-dotenv>=1.0.0
+black>=23.7.0
+flake8>=6.1.0
+
+# Type Hints
+mypy>=1.4.0
+types-requests>=2.31.0
+
+# API Documentation
+flasgger>=0.9.7
+
+# Caching
+redis>=4.6.0
+
+# Task Queue (for background pronunciation generation)
+celery>=5.3.0
+
+# Pinyin/Character Processing
+pypinyin>=0.49.0
+hanziconv>=0.3.2
+
+# Character Decomposition Data
+cjklib>=0.3.2

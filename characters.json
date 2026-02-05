@@ -1,0 +1,533 @@
+{
+  "metadata": {
+    "title": "西遊記記憶宮殿字符库",
+    "title_pinyin": "Xī Yóu Jì Jì Yì Gōng Diàn Zìfú Kù",
+    "title_english": "Journey to the West Memory Palace Character Database",
+    "version": "1.0.0",
+    "total_characters": 214,
+    "description": "Fundamental radicals mapped to Journey to the West imagery following Matteo Ricci's mnemonic methodology"
+  },
+  "palaces": [
+    {
+      "id": "huaguoshan",
+      "name": {
+        "chinese": "花果山",
+        "pinyin": "Huāguǒshān",
+        "ipa": "/xwa.kwo.ʂan/",
+        "english": "Flower-Fruit Mountain"
+      },
+      "description": "Sun Wukong's birthplace - Home of basic strokes and foundational radicals",
+      "coordinates": {
+        "latitude": 34.738,
+        "longitude": 119.463,
+        "real_location": "Lianyungang, Jiangsu Province"
+      },
+      "arcgis_layer": "palace_huaguoshan",
+      "stations": [
+        {
+          "id": "water_curtain_cave",
+          "name": {
+            "chinese": "水帘洞",
+            "pinyin": "Shuǐlián dòng",
+            "ipa": "/ʂweɪ.ljan tʊŋ/",
+            "english": "Water-Curtain Cave"
+          },
+          "theme": "water_radicals",
+          "pilgrim_guide": "sun_wukong",
+          "characters": [
+            {
+              "character": "水",
+              "pinyin": "shuǐ",
+              "ipa": "/ʂweɪ/",
+              "tone": 3,
+              "meaning": "water",
+              "radical_number": 85,
+              "stroke_count": 4,
+              "memory_image": {
+                "scene": "Crystal-clear water cascading through the cave entrance, each droplet catching light like a pearl",
+                "action": "Sun Wukong leaps through the curtain, droplets spraying in all directions",
+                "emotion": "exhilaration, discovery",
+                "mnemonic_phrase": "'Shway' sounds like water spray - feel the mist on your face!"
+              },
+              "dialects": {
+                "mandarin": { "pinyin": "shuǐ", "ipa": "/ʂweɪ˨˩˦/", "audio": "shui3.mp3" },
+                "cantonese": { "jyutping": "seoi2", "ipa": "/sɵy˧˥/", "audio": "seoi2.mp3" },
+                "minnan": { "poj": "chúi", "ipa": "/tsui˧˥/", "audio": "chui.mp3" },
+                "shanghainese": { "ipa": "/sz̩˧˦/", "audio": "sz_shang.mp3" }
+              },
+              "usage_examples": [
+                {
+                  "sentence": "水帘洞是孙悟空的家。",
+                  "pinyin": "Shuǐlián dòng shì Sūn Wùkōng de jiā.",
+                  "english": "The Water-Curtain Cave is Sun Wukong's home.",
+                  "source": "Journey to the West, Chapter 1"
+                }
+              ],
+              "compound_characters": ["冰", "永", "泳", "河", "海", "洋"]
+            },
+            {
+              "character": "门",
+              "pinyin": "mén",
+              "ipa": "/mən/",
+              "tone": 2,
+              "meaning": "door, gate",
+              "radical_number": 169,
+              "stroke_count": 3,
+              "memory_image": {
+                "scene": "The great stone doors of the cave, covered in moss and mystery",
+                "action": "Wukong pushes open the ancient doors, revealing golden light within",
+                "emotion": "anticipation, courage",
+                "mnemonic_phrase": "'Men' enter through doors - picture brave men pushing through!"
+              },
+              "dialects": {
+                "mandarin": { "pinyin": "mén", "ipa": "/mən˧˥/", "audio": "men2.mp3" },
+                "cantonese": { "jyutping": "mun4", "ipa": "/mun˨˩/", "audio": "mun4.mp3" },
+                "minnan": { "poj": "mn̂g", "ipa": "/mŋ̍˧˥/", "audio": "mng.mp3" }
+              },
+              "usage_examples": [
+                {
+                  "sentence": "猴王推开石门。",
+                  "pinyin": "Hóu wáng tuī kāi shí mén.",
+                  "english": "The Monkey King pushed open the stone door."
+                }
+              ]
+            },
+            {
+              "character": "心",
+              "pinyin": "xīn",
+              "ipa": "/ɕin/",
+              "tone": 1,
+              "meaning": "heart, mind",
+              "radical_number": 61,
+              "stroke_count": 4,
+              "memory_image": {
+                "scene": "Deep within the cave, a glowing crystal pulses with red light - the heart of the mountain",
+                "action": "Wukong places his hand over his chest, feeling his own heart beat in rhythm with the crystal",
+                "emotion": "connection, self-awareness",
+                "mnemonic_phrase": "The Mind Monkey (心猿 xīnyuán) - your heart is where your mind truly lives"
+              },
+              "philosophical_note": {
+                "source": "Journey to the West",
+                "quote": "心猿归正 - The Mind Monkey returns to righteousness",
+                "interpretation": "Sun Wukong represents the untamed mind that must be disciplined through the journey"
+              },
+              "dialects": {
+                "mandarin": { "pinyin": "xīn", "ipa": "/ɕin˥/", "audio": "xin1.mp3" },
+                "cantonese": { "jyutping": "sam1", "ipa": "/sɐm˥/", "audio": "sam1.mp3" },
+                "minnan": { "poj": "sim", "ipa": "/sim˥/", "audio": "sim.mp3" }
+              }
+            },
+            {
+              "character": "王",
+              "pinyin": "wáng",
+              "ipa": "/wɑŋ/",
+              "tone": 2,
+              "meaning": "king",
+              "radical_number": 96,
+              "stroke_count": 4,
+              "memory_image": {
+                "scene": "A throne of stone sits at the cave's center, carved with three horizontal lines and one vertical - the character 王 itself!",
+                "action": "Sun Wukong leaps onto the throne, proclaiming himself 美猴王 (Měi Hóu Wáng) - Handsome Monkey King",
+                "emotion": "pride, ambition, humor",
+                "mnemonic_phrase": "The three lines connect heaven, humanity, and earth - only a KING (王) connects all three!"
+              },
+              "stroke_analysis": {
+                "structure": "Three horizontal strokes connected by one vertical",
+                "philosophical_meaning": "Upper line = Heaven (天), Middle = Humanity (人), Lower = Earth (地), Vertical = the one who unites them"
+              },
+              "dialects": {
+                "mandarin": { "pinyin": "wáng", "ipa": "/wɑŋ˧˥/", "audio": "wang2.mp3" },
+                "cantonese": { "jyutping": "wong4", "ipa": "/wɔŋ˨˩/", "audio": "wong4.mp3" }
+              }
+            },
+            {
+              "character": "石",
+              "pinyin": "shí",
+              "ipa": "/ʂʐ̩/",
+              "tone": 2,
+              "meaning": "stone, rock",
+              "radical_number": 112,
+              "stroke_count": 5,
+              "memory_image": {
+                "scene": "The magical stone egg from which Wukong was born, sitting atop the mountain, struck by lightning",
+                "action": "The stone cracks open with a thunderous boom, and a monkey emerges, eyes blazing with golden light",
+                "emotion": "wonder, birth, transformation",
+                "mnemonic_phrase": "From STONE (石) came the Stone Monkey - 'shí' sounds like 'she' in English, imagine a stone giving birth!"
+              },
+              "cultural_note": "In Chinese cosmology, stones can contain spiritual essence (精 jīng) and give birth to immortal beings",
+              "dialects": {
+                "mandarin": { "pinyin": "shí", "ipa": "/ʂʐ̩˧˥/", "audio": "shi2.mp3" },
+                "cantonese": { "jyutping": "sek6", "ipa": "/sɛk̚˨/", "audio": "sek6.mp3" }
+              }
+            }
+          ]
+        },
+        {
+          "id": "peach_garden",
+          "name": {
+            "chinese": "蟠桃园",
+            "pinyin": "Pántáo yuán",
+            "ipa": "/pʰan.tʰaʊ ɥɛn/",
+            "english": "Garden of Immortal Peaches"
+          },
+          "theme": "nature_radicals",
+          "pilgrim_guide": "sun_wukong",
+          "characters": [
+            {
+              "character": "木",
+              "pinyin": "mù",
+              "ipa": "/mu/",
+              "tone": 4,
+              "meaning": "tree, wood",
+              "radical_number": 75,
+              "stroke_count": 4,
+              "memory_image": {
+                "scene": "Ancient peach trees with twisted trunks, branches heavy with golden fruit",
+                "action": "Wukong hangs from a branch, stuffing peaches into his mouth, juice running down his chin",
+                "emotion": "gluttony, playfulness, immortality-seeking",
+                "mnemonic_phrase": "A tree (木) looks like a person with arms spread wide - 'moo' like a cow eating tree leaves!"
+              },
+              "stroke_analysis": {
+                "structure": "One vertical trunk with two diagonal branches",
+                "visual_mnemonic": "Draw a stick figure with arms down - that's your tree!"
+              }
+            },
+            {
+              "character": "果",
+              "pinyin": "guǒ",
+              "ipa": "/kwo/",
+              "tone": 3,
+              "meaning": "fruit, result",
+              "radical_number": 75,
+              "stroke_count": 8,
+              "memory_image": {
+                "scene": "A ripe peach glowing with immortal energy, sitting perfectly on the tree",
+                "action": "Wukong bites into the fruit, feeling 3000 years of life force surge through his body",
+                "emotion": "desire, satisfaction, consequence",
+                "mnemonic_phrase": "'Gwo' sounds like 'go' - the fruit GOES on the tree! Also: 因果 (yīnguǒ) = cause and effect"
+              },
+              "compound_word": {
+                "word": "花果山",
+                "pinyin": "Huāguǒshān",
+                "meaning": "Flower-Fruit Mountain",
+                "connection": "This character is IN the mountain's name!"
+              }
+            },
+            {
+              "character": "桃",
+              "pinyin": "táo",
+              "ipa": "/tʰaʊ/",
+              "tone": 2,
+              "meaning": "peach",
+              "radical_number": 75,
+              "stroke_count": 10,
+              "memory_image": {
+                "scene": "The legendary immortal peaches that ripen once every 3000 years",
+                "action": "Wukong steals the peaches from Heaven, causing cosmic chaos",
+                "emotion": "temptation, rebellion, divine transgression",
+                "mnemonic_phrase": "TAO (道) the Way + wood (木) = the peach (桃) is the fruit of the spiritual path!"
+              },
+              "cultural_significance": "Peaches symbolize immortality (长寿 chángshòu) in Chinese culture. The Peach Banquet (蟠桃会 Pántáo huì) is one of the most famous scenes in Journey to the West."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tiangong",
+      "name": {
+        "chinese": "天宫",
+        "pinyin": "Tiāngōng",
+        "ipa": "/tʰjen.kʊŋ/",
+        "english": "Heavenly Palace"
+      },
+      "description": "The celestial realm - Characters related to heaven, authority, and cosmic order",
+      "coordinates": {
+        "latitude": 39.9042,
+        "longitude": 116.4074,
+        "symbolic_location": "Beijing Forbidden City (as earthly reflection of heavenly palace)"
+      },
+      "arcgis_layer": "palace_tiangong",
+      "stations": [
+        {
+          "id": "jade_emperor_hall",
+          "name": {
+            "chinese": "凌霄宝殿",
+            "pinyin": "Língxiāo bǎodiàn",
+            "ipa": "/liŋ.ɕjaʊ paʊ.tjen/",
+            "english": "Hall of Miraculous Mist"
+          },
+          "theme": "authority_characters",
+          "pilgrim_guide": "tang_sanzang",
+          "characters": [
+            {
+              "character": "天",
+              "pinyin": "tiān",
+              "ipa": "/tʰjen/",
+              "tone": 1,
+              "meaning": "heaven, sky, day",
+              "radical_number": 37,
+              "stroke_count": 4,
+              "memory_image": {
+                "scene": "The vast azure dome above the Jade Emperor's throne, filled with swirling clouds and stars",
+                "action": "Wukong somersaults 108,000 miles through the heavens, only to land back where he started",
+                "emotion": "awe, infinity, humility",
+                "mnemonic_phrase": "A person (人) with arms stretched wide, standing under the great ONE (一) above - that's heaven!"
+              },
+              "stroke_analysis": {
+                "decomposition": "一 (one) + 大 (big/person with arms spread)",
+                "meaning": "What is above the greatest person? Heaven!"
+              },
+              "marxist_interpretation": "In dialectical terms, 天 represents both the literal sky (material) and the concept of natural law (ideal) - the unity of matter and thought"
+            },
+            {
+              "character": "帝",
+              "pinyin": "dì",
+              "ipa": "/ti/",
+              "tone": 4,
+              "meaning": "emperor, sovereign",
+              "radical_number": 50,
+              "stroke_count": 9,
+              "memory_image": {
+                "scene": "The Jade Emperor (玉帝 Yùdì) sitting on his throne, radiating authority",
+                "action": "He pronounces judgment on Wukong: 500 years under Five Elements Mountain!",
+                "emotion": "judgment, consequence, absolute power",
+                "mnemonic_phrase": "'Dee' like a decree - the emperor makes DECREES!"
+              }
+            },
+            {
+              "character": "玉",
+              "pinyin": "yù",
+              "ipa": "/y/",
+              "tone": 4,
+              "meaning": "jade, precious",
+              "radical_number": 96,
+              "stroke_count": 5,
+              "memory_image": {
+                "scene": "The Jade Emperor's scepter, glowing with inner light, symbol of celestial authority",
+                "action": "Light refracts through the jade, casting rainbow patterns across the palace",
+                "emotion": "purity, value, immortality",
+                "mnemonic_phrase": "王 (king) + a dot = jade (玉). Even kings treasure jade above gold!"
+              },
+              "cultural_note": "Jade (玉) is more precious than gold in Chinese culture, symbolizing virtue, beauty, and nobility. The idiom 宁为玉碎，不为瓦全 (níng wéi yù suì, bù wéi wǎ quán) means 'better to be shattered jade than intact tile' - better honorable death than shameful life."
+            }
+          ]
+        },
+        {
+          "id": "laozi_furnace",
+          "name": {
+            "chinese": "八卦炉",
+            "pinyin": "Bāguà lú",
+            "ipa": "/pa.kwa lu/",
+            "english": "Eight Trigrams Furnace"
+          },
+          "theme": "fire_metal_radicals",
+          "pilgrim_guide": "sha_wujing",
+          "characters": [
+            {
+              "character": "火",
+              "pinyin": "huǒ",
+              "ipa": "/xwo/",
+              "tone": 3,
+              "meaning": "fire",
+              "radical_number": 86,
+              "stroke_count": 4,
+              "memory_image": {
+                "scene": "Laozi's alchemical furnace blazing with spiritual fire, meant to destroy Wukong",
+                "action": "After 49 days in the furnace, Wukong emerges with FIERY GOLDEN EYES (火眼金睛 huǒyǎn jīnjīng)!",
+                "emotion": "transformation through suffering, purification, gaining new powers",
+                "mnemonic_phrase": "The character looks like a person with flames rising from their arms - HOT! 'Hwo' sounds like blowing on something hot!"
+              },
+              "philosophical_note": {
+                "source": "Daoist alchemy",
+                "concept": "Fire represents transformation (化 huà). Through fire, base metals become gold, and mortal beings gain immortality."
+              }
+            },
+            {
+              "character": "金",
+              "pinyin": "jīn",
+              "ipa": "/tɕin/",
+              "tone": 1,
+              "meaning": "gold, metal",
+              "radical_number": 167,
+              "stroke_count": 8,
+              "memory_image": {
+                "scene": "Golden light emanating from Wukong's newly transformed eyes",
+                "action": "He can now see through any demon's disguise - his eyes are liquid gold!",
+                "emotion": "clarity, invincibility, precious insight",
+                "mnemonic_phrase": "'Jin' sounds like 'gene' - gold is in your GENES if you're noble!"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wuxingshan",
+      "name": {
+        "chinese": "五行山",
+        "pinyin": "Wǔxíng shān",
+        "ipa": "/wu.ɕiŋ ʂan/",
+        "english": "Five Elements Mountain"
+      },
+      "description": "Where Wukong was imprisoned for 500 years - Characters about constraint, patience, and redemption",
+      "coordinates": {
+        "latitude": 35.0000,
+        "longitude": 103.0000,
+        "symbolic_location": "Representing the journey's starting point after imprisonment"
+      },
+      "philosophical_framework": {
+        "five_elements": [
+          { "element": "木", "pinyin": "mù", "english": "Wood", "direction": "East", "season": "Spring" },
+          { "element": "火", "pinyin": "huǒ", "english": "Fire", "direction": "South", "season": "Summer" },
+          { "element": "土", "pinyin": "tǔ", "english": "Earth", "direction": "Center", "season": "Late Summer" },
+          { "element": "金", "pinyin": "jīn", "english": "Metal", "direction": "West", "season": "Autumn" },
+          { "element": "水", "pinyin": "shuǐ", "english": "Water", "direction": "North", "season": "Winter" }
+        ],
+        "marxist_note": "The Five Elements represent the dialectical interplay of natural forces - creation (生 shēng) and destruction (克 kè) in eternal cycle"
+      },
+      "stations": [
+        {
+          "id": "buddha_palm_seal",
+          "name": {
+            "chinese": "如来佛祖掌印",
+            "pinyin": "Rúlái Fózǔ zhǎng yìn",
+            "english": "Buddha's Palm Seal"
+          },
+          "theme": "buddhist_characters",
+          "characters": [
+            {
+              "character": "佛",
+              "pinyin": "fó",
+              "ipa": "/fo/",
+              "tone": 2,
+              "meaning": "Buddha, enlightened one",
+              "radical_number": 9,
+              "stroke_count": 7,
+              "memory_image": {
+                "scene": "The Buddha's massive golden palm descending from the sky, pressing Wukong beneath the mountain",
+                "action": "Wukong struggles but cannot escape - the weight of enlightenment itself holds him down",
+                "emotion": "humility forced upon pride, the beginning of true learning",
+                "mnemonic_phrase": "人 (person) + 弗 (not) = Buddha is NOT an ordinary person!"
+              },
+              "usage_in_novel": {
+                "quote": "你这泼猴！你虽有无穷变化，却逃不出我的手掌心！",
+                "pinyin": "Nǐ zhè pō hóu! Nǐ suī yǒu wúqióng biànhuà, què táo bù chū wǒ de shǒuzhǎng xīn!",
+                "english": "You impudent monkey! Though you have infinite transformations, you cannot escape my palm!"
+              }
+            },
+            {
+              "character": "悟",
+              "pinyin": "wù",
+              "ipa": "/wu/",
+              "tone": 4,
+              "meaning": "enlightenment, to awaken",
+              "radical_number": 61,
+              "stroke_count": 10,
+              "memory_image": {
+                "scene": "After 500 years of imprisonment, Tang Sanzang removes the seal, and Wukong finally UNDERSTANDS",
+                "action": "The moment of awakening - Wukong bows to his master, accepting the path of righteousness",
+                "emotion": "breakthrough after long suffering, genuine transformation",
+                "mnemonic_phrase": "心 (heart) + 吾 (self) = when your heart meets your self, you achieve awakening (悟)!"
+              },
+              "name_significance": "This character appears in the names of all three main disciples: 悟空 (Wùkōng), 悟能 (Wùnéng), 悟净 (Wùjìng) - Awakening to Emptiness, Awakening to Ability, Awakening to Purity"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pilgrims": {
+    "sun_wukong": {
+      "chinese": "孙悟空",
+      "pinyin": "Sūn Wùkōng",
+      "ipa": "/sun wu.kʰʊŋ/",
+      "meaning": "Monkey Awakened to Emptiness",
+      "titles": [
+        { "chinese": "美猴王", "pinyin": "Měi Hóu Wáng", "english": "Handsome Monkey King" },
+        { "chinese": "齐天大圣", "pinyin": "Qítiān Dàshèng", "english": "Great Sage Equal to Heaven" },
+        { "chinese": "心猿", "pinyin": "Xīnyuán", "english": "Mind Monkey" },
+        { "chinese": "斗战胜佛", "pinyin": "Dòuzhànshèng Fó", "english": "Victorious Fighting Buddha" }
+      ],
+      "cognitive_role": "Working memory, active problem-solving, transformation",
+      "teaching_style": "Dynamic, challenging, uses humor and tricks to make points memorable"
+    },
+    "tang_sanzang": {
+      "chinese": "唐三藏",
+      "pinyin": "Táng Sānzàng",
+      "ipa": "/tʰɑŋ san.tsɑŋ/",
+      "meaning": "Tang Dynasty Master of the Three Baskets (of Buddhist scriptures)",
+      "titles": [
+        { "chinese": "玄奘法师", "pinyin": "Xuánzàng Fǎshī", "english": "Master Xuanzang" },
+        { "chinese": "唐僧", "pinyin": "Táng Sēng", "english": "Tang Monk" },
+        { "chinese": "旃檀功德佛", "pinyin": "Zhāntán Gōngdé Fó", "english": "Sandalwood Merit Buddha" }
+      ],
+      "cognitive_role": "Executive function, discipline, moral compass",
+      "teaching_style": "Patient, systematic, emphasizes proper form and repetition"
+    },
+    "zhu_bajie": {
+      "chinese": "猪八戒",
+      "pinyin": "Zhū Bājiè",
+      "ipa": "/tʂu pa.tɕje/",
+      "meaning": "Pig of Eight Prohibitions",
+      "titles": [
+        { "chinese": "天蓬元帅", "pinyin": "Tiānpéng Yuánshuài", "english": "Marshal Tianpeng" },
+        { "chinese": "悟能", "pinyin": "Wùnéng", "english": "Awakened to Ability" },
+        { "chinese": "净坛使者", "pinyin": "Jìngtán Shǐzhě", "english": "Cleanser of the Altars" }
+      ],
+      "cognitive_role": "Emotional memory, appetites, relatable mistakes",
+      "teaching_style": "Uses humor, shows common errors, makes learning feel less intimidating"
+    },
+    "sha_wujing": {
+      "chinese": "沙悟净",
+      "pinyin": "Shā Wùjìng",
+      "ipa": "/ʂa wu.tɕiŋ/",
+      "meaning": "Sand Awakened to Purity",
+      "titles": [
+        { "chinese": "卷帘大将", "pinyin": "Juǎnlián Dàjiàng", "english": "Curtain-Raising General" },
+        { "chinese": "沙僧", "pinyin": "Shā Sēng", "english": "Sand Monk" },
+        { "chinese": "金身罗汉", "pinyin": "Jīnshēn Luóhàn", "english": "Golden-Bodied Arhat" }
+      ],
+      "cognitive_role": "Procedural memory, persistence, reliability",
+      "teaching_style": "Steady, supportive, helps with long-term retention through repetition"
+    },
+    "bailong_ma": {
+      "chinese": "白龙马",
+      "pinyin": "Báilóng Mǎ",
+      "ipa": "/paɪ.lʊŋ ma/",
+      "meaning": "White Dragon Horse",
+      "titles": [
+        { "chinese": "玉龙三太子", "pinyin": "Yùlóng Sān Tàizǐ", "english": "Third Prince of the Dragon King" },
+        { "chinese": "八部天龙马", "pinyin": "Bābù Tiānlóng Mǎ", "english": "Eight-Division Heavenly Dragon Horse" }
+      ],
+      "cognitive_role": "Motivation, carrying forward, steady progress",
+      "teaching_style": "Silent support, enables the journey to continue"
+    }
+  },
+  "learning_principles": {
+    "ricci_method": {
+      "chinese": "利瑪竇方法",
+      "principles": [
+        "Decompose characters into meaningful components (拆字)",
+        "Create vivid, emotionally striking images (生动形象)",
+        "Place images in fixed spatial locations (位置记忆)",
+        "Connect images through narrative sequence (叙事连接)",
+        "Practice retrieval through mental journeys (心理旅程)"
+      ]
+    },
+    "bruno_additions": {
+      "chinese": "布鲁诺补充",
+      "principles": [
+        "Images should evoke strong emotions: heroic, horrifying, or comic",
+        "Use well-lit, well-spaced locations in the memory palace",
+        "Create dynamic actions, not static scenes",
+        "Use famous figures and archetypes as anchors"
+      ]
+    },
+    "modern_chinese_application": {
+      "dialectical_approach": "Understanding comes through practice (实践出真知)",
+      "urban_rural_consideration": "Urban learners may connect with temple architecture; rural learners with mountain/river imagery",
+      "regional_identity": "Dialect support respects linguistic diversity while building Mandarin proficiency"
+    }
+  }
+}
