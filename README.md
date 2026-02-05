@@ -16,6 +16,18 @@ A bilingual (English/Chinese) memory palace application that synthesizes:
 
 ---
 
+## 📂 Repository Structure
+
+This repository contains three implementations of the Memory Palace system:
+
+- **`/React`** - React Native mobile application (complete, ready to run)
+- **`/Java`** - Java backend service implementation
+- **`/Python`** - Python-based implementation with data processing
+
+Each folder contains its own README with specific setup instructions. See the [Directory Structure](#directory-structure) section below for details.
+
+---
+
 ## 📚 Theoretical Foundation
 
 ### The Four Pillars (四柱 Sì Zhù)
@@ -136,20 +148,25 @@ const memoryPalaceLayers = {
 ### Directory Structure
 
 ```
-journey-to-the-west-memory-palace/
-├── src/
-│   ├── components/          # React Native UI components
-│   ├── screens/             # App screens
-│   ├── data/                # Character databases, palace definitions
-│   ├── utils/               # Helpers, pronunciation guides
-│   └── services/            # API, ArcGIS integration
-├── python/                  # Python backend & data processing
-├── java/                    # Android native implementation
-├── assets/
-│   ├── images/              # Journey to the West artwork
-│   ├── audio/               # Pronunciation files
-│   └── fonts/               # Chinese typography
-└── docs/                    # Strategy documents
+Journey-To-The-West-Memory-Palace/
+├── React/                   # React Native mobile app
+│   ├── src/
+│   │   ├── screens/         # App screens (Memory Palace, Learning, Map, etc.)
+│   │   └── data/            # Character database (characters.json)
+│   ├── assets/              # Images, fonts, audio
+│   ├── App.js               # Main app entry point
+│   ├── package.json         # Dependencies
+│   └── README_SETUP.md      # React Native setup instructions
+├── Java/                    # Java backend implementation
+│   ├── MemoryPalaceService.java
+│   └── README.md            # Java setup instructions
+├── Python/                  # Python backend & data processing
+│   ├── memory_palace.py     # Core Python implementation
+│   ├── requirements.txt     # Python dependencies
+│   └── README.md            # Python setup instructions
+├── README.md                # This file - Project overview
+├── STRATEGY_SYNTHESIS.md    # Detailed strategy document
+└── The Memory Palace of Matteo Ricci... .epub  # Reference material
 ```
 
 ---
@@ -206,21 +223,50 @@ Inspired by:
 
 ## 🚀 Getting Started
 
+Choose your implementation:
+
+### React Native Mobile App (Recommended)
+
 ```bash
-# Clone repository
-git clone https://github.com/your-org/journey-to-the-west-memory-palace.git
+# Navigate to React folder
+cd React/
 
 # Install dependencies
-cd journey-to-the-west-memory-palace
 npm install
 
-# Start React Native development
-npx expo start
+# Start development server
+npm start
 
-# Run Python backend
-cd python
+# Follow instructions in React/README_SETUP.md
+```
+
+### Python Implementation
+
+```bash
+# Navigate to Python folder
+cd Python/
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
 pip install -r requirements.txt
-python app.py
+
+# Run the application
+python memory_palace.py
+```
+
+### Java Backend
+
+```bash
+# Navigate to Java folder
+cd Java/
+
+# Compile and run
+javac MemoryPalaceService.java
+
+# See Java/README.md for details
 ```
 
 ---
