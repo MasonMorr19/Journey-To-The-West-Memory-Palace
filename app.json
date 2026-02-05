@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "西遊記記憶宮殿",
+    "slug": "journey-to-the-west-memory-palace",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1C1C1C"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.memorypalace.journeytothewest"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1C1C1C"
+      },
+      "package": "com.memorypalace.journeytothewest"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
